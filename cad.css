@@ -1,0 +1,115 @@
+hr {
+	border: 1px dotted;
+}
+
+#cont {
+	position:relative;
+	top:0px;
+	width:800px;
+/*	margin:0 auto 0 auto; */
+	margin-left: auto;
+	margin-right: auto;
+	padding:15;
+	text-align: center;
+	background-color: #FFFFFF;
+	overflow:hidden;
+	border-left: 5px solid #666666;
+	border-right: 5px solid #666666;
+/*	height: 100%;*/
+}	
+#header {
+	position:relative;
+	width:100%;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;
+	border-width: 1px 1px 1px 1px;
+}
+
+#main {
+	position:relative;
+	top:80px;
+	width:100%;
+	clear:both;
+	text-align: left;
+	border-width: 0px 0px 0px 0px;
+}
+body,td,th {
+	color: #333333;
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+body {
+	background-color: #829aae; 
+/*	background:url(./images/back1.png) top center repeat-y;*/
+
+	padding:0px;
+	margin: 0px;
+	height: 100%;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #005eae;
+
+}
+
+
+a:hover {
+	text-decoration: underline;
+	color: #AA0000;
+}
+
+h1 {
+	font-size: 140%;
+	margin: 1px 1px 3px 12px;
+	padding: 0px 0px 20px 0px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 130%;
+	margin: 1px 1px 3px 12px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+h3 {
+	font-size: 120%;
+	margin: 1px 1px 3px 12px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+h4 {
+	font-size: 110%;
+	margin: 1px 1px 1px 1px;
+	padding: 0px 0px 0px 0px;
+	font-weight: bold;
+}
+p {
+	margin-top: 2px;
+	margin-bottom: 18px;
+}
+
+.normal {
+	font-size: 11pt
+}
+.medium {
+	font-size: 10pt
+}
+.small {
+	font-size: 8pt
+}
+.redlink {
+	font-weight: bold;
+	text-decoration: none;
+	color: #CC0000;
+}
+
+form {
+	border: 1px dotted;
+	padding: 10px;
+	background-color: #fcfcd6;
+	width:550px;
+	margin-left: auto;
+	margin-right: auto;
+}
